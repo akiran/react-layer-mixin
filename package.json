@@ -1,0 +1,24 @@
+{
+  "name": "react-layer-mixin",
+  "version": "0.1.0",
+  "description": "React mixin for building layered components",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akiran/react-layer-mixin.git"
+  },
+  "keywords": [
+    "React",
+    "layer",
+    "overlay"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/akiran/react-layer-mixin/issues"
+  },
+  "homepage": "https://github.com/akiran/react-layer-mixin"
+}
