@@ -1,6 +1,6 @@
 {
   "name": "react-layer-mixin",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "React mixin for building layered components",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,8 @@
   "keywords": [
     "React",
     "layer",
-    "overlay"
+    "overlay",
+    "react-component"
   ],
   "author": "",
   "license": "MIT",
