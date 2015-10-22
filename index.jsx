@@ -1,4 +1,5 @@
 var React = require('react');
+var ReactDOM = require('react-dom');
 
 //From https://github.com/Khan/react-components/blob/master/js/layered-component-mixin.jsx
 var LayerMixin = {
@@ -17,9 +18,9 @@ var LayerMixin = {
   _renderLayer: function() {
     var layerElement = this.renderLayer();
     if (layerElement === null) {
-        React.render(<noscript />, this._layer);
+        ReactDOM.render(<noscript />, this._layer);
     } else {
-        React.render(layerElement, this._layer);
+        ReactDOM.render(layerElement, this._layer);
     }
 
     if (this.layerDidMount) {
@@ -31,7 +32,7 @@ var LayerMixin = {
     if (this.layerWillUnmount) {
       this.layerWillUnmount(this._layer);
     }
-    React.unmountComponentAtNode(this._layer);
+    ReactDOM.unmountComponentAtNode(this._layer);
   }
 };
 

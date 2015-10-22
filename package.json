@@ -1,6 +1,6 @@
 {
   "name": "react-layer-mixin",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "React mixin for building layered components",
   "main": "index.js",
   "scripts": {
@@ -29,6 +29,7 @@
     "react-tools": "^0.13.1"
   },
   "peerDependencies": {
-    "react": "<0.14"
+    "react": ">=0.14",
+    "react-dom": ">=0.14"
   }
 }
